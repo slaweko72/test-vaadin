@@ -103,6 +103,6 @@ public class BindingUI extends UI implements ValueChangeListener {
 		String userText = event.getProperty().getValue()
 				.toString();
 		String className = event.getProperty().getClass().getName();
-		Notification.show("This is it ... " + userText + " ... " + className);
+		Notification.show("This is it -> " + userText + " ... " + className);
 	}
 }
